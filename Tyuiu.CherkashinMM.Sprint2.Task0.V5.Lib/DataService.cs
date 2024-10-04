@@ -6,7 +6,7 @@ namespace Tyuiu.CherkashinMM.Sprint2.Task0.V5.Lib
     {
         public bool[] GetCompareOperations(int x, int y)
         {
-            bool[] result = [x == y, x != y, x < y, x > y, x <= y, x >= y];
+            bool[] result = [x == y, x != y, x < y, !(x > y), !(x <= y), !(x >= y)];
             return result;
         }
     }
