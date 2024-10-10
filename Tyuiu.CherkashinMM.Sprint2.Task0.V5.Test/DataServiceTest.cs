@@ -10,7 +10,7 @@ namespace Tyuiu.CherkashinMM.Sprint2.Task0.V5.Test
         {
             DataService ds = new DataService();
 
-            bool[] valid = [false, true, true, false, true, false];
+            bool[] valid = [false, true, true, true, false, true];
             int x = 105;
             int y = 223;
 
