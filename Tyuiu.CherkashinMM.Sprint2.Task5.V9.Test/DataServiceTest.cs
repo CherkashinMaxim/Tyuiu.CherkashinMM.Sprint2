@@ -9,6 +9,6 @@ public class DataServiceTest
    public void Check()  
    { 
         DataService ds = new DataService();
-        Assert.AreEqual("1.12", ds.FindDateOfNextDay(11, 30));
+        Assert.AreEqual("1.12", ds.FindDateOfNextDay(30, 11));
    } 
 } 
