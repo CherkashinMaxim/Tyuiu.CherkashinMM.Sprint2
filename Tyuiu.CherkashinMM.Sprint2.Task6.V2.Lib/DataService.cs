@@ -9,29 +9,29 @@ public class DataService : ISprint2Task6V2
         switch (value)
         {
             case 1:
-                return "Зима";
+                return "зима";
             case 2:
-                return "Зима";
+                return "зима";
             case 3:
-                return "Весна";
+                return "весна";
             case 4:
-                return "Весна";
+                return "весна";
             case 5:
-                return "Весна";
+                return "весна";
             case 6:
-                return "Лето";
+                return "лето";
             case 7:
-                return "Лето";
+                return "лето";
             case 8:
-                return "Лето";
+                return "лето";
             case 9:
-                return "Осень";
+                return "осень";
             case 10:
-                return "Осень";
+                return "осень";
             case 11:
-                return "Осень";
+                return "осень";
             case 12:
-                return "Зима";
+                return "зима";
             default:
                 return "Неверное значение";
         }
