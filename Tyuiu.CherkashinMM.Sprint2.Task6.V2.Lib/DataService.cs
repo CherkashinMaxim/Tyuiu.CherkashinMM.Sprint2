@@ -9,29 +9,29 @@ public class DataService : ISprint2Task6V2
         switch (value)
         {
             case 1:
-                return "çèìà";
+                return "зима";
             case 2:
-                return "çèìà";
+                return "зима";
             case 3:
-                return "âåñíà";
+                return "весна";
             case 4:
-                return "âåñíà";
+                return "весна";
             case 5:
-                return "âåñíà";
+                return "весна";
             case 6:
-                return "ëåòî";
+                return "лето";
             case 7:
-                return "ëåòî";
+                return "лето";
             case 8:
-                return "ëåòî";
+                return "лето";
             case 9:
-                return "îñåíü";
+                return "осень";
             case 10:
-                return "îñåíü";
+                return "осень";
             case 11:
-                return "îñåíü";
+                return "осень";
             case 12:
-                return "çèìà";
+                return "зима";
             default:
                 return "Íåâåðíîå çíà÷åíèå";
         }
