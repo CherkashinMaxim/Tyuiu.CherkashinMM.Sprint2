@@ -3,37 +3,37 @@ using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.CherkashinMM.Sprint2.Task6.V2.Lib;
 
 public class DataService : ISprint2Task6V2
-{
+{ 
     public string FindMonthSeason(int value)
     {
         switch (value)
         {
             case 1:
-                return "зима";
+                return "Г§ГЁГ¬Г ";
             case 2:
-                return "зима";
+                return "Г§ГЁГ¬Г ";
             case 3:
-                return "весна";
+                return "ГўГҐГ±Г­Г ";
             case 4:
-                return "весна";
+                return "ГўГҐГ±Г­Г ";
             case 5:
-                return "весна";
+                return "ГўГҐГ±Г­Г ";
             case 6:
-                return "лето";
+                return "Г«ГҐГІГ®";
             case 7:
-                return "лето";
+                return "Г«ГҐГІГ®";
             case 8:
-                return "лето";
+                return "Г«ГҐГІГ®";
             case 9:
-                return "осень";
+                return "Г®Г±ГҐГ­Гј";
             case 10:
-                return "осень";
+                return "Г®Г±ГҐГ­Гј";
             case 11:
-                return "осень";
+                return "Г®Г±ГҐГ­Гј";
             case 12:
-                return "зима";
+                return "Г§ГЁГ¬Г ";
             default:
-                return "Неверное значение";
+                return "ГЌГҐГўГҐГ°Г­Г®ГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ";
         }
     }
 } 
