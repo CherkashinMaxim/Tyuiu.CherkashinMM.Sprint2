@@ -6,42 +6,20 @@ class Program
 { 
     static void Main(string[] args) 
     {
-        int x = 3;
-
-        int y = 0;
-
-        switch (x)
-
-        {
-
-            case -3:
-
-            case -2:
-
-            case -1: y = -x; break;
-
-            case 0: y = 5; break;
-
-            case 3:
-
-            case 2:
-
-            case 1: y = 2 * x; break;
-
-        }
-        Console.WriteLine(y);
         DataService ds = new DataService();
 
         Console.Title = "Спринт #2 | Выполнил: Черкашин М. М. | ИИПб-24-1"; 
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* Спринт #2                                                            *"); 
-        Console.WriteLine("* Тема:                                                                *"); 
+        Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                            *"); 
         Console.WriteLine("* Задание #5                                                           *"); 
-        Console.WriteLine("* Вариант #9                                                          *"); 
-        Console.WriteLine("* Выполнил: Черкашин Максим Михайлович | ИИПб-24-1                                                           *"); 
-        Console.WriteLine("************************************************************************"); 
-        Console.WriteLine("* УСЛОВИЕ:                                                             *"); 
-        Console.WriteLine("*                                                                      *"); 
+        Console.WriteLine("* Вариант #9                                                           *"); 
+        Console.WriteLine("* Выполнил: Черкашин Максим Михайлович | ИИПб-24-1                     *"); 
+        Console.WriteLine("************************************************************************");
+        Console.WriteLine("* УСЛОВИЕ:                                                             *");
+        Console.WriteLine("* Дата некоторого дня характеризуется двумя натуральными числами:      *");
+        Console.WriteLine("* m (порядковый номер месяца) и n (число). По заданным n и m           *");
+        Console.WriteLine("* определить дату следующего дня.                                      *");
         Console.WriteLine("************************************************************************"); 
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                     *"); 
         Console.WriteLine("************************************************************************"); 
