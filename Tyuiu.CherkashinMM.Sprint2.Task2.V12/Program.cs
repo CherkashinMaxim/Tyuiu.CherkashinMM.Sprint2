@@ -1,6 +1,6 @@
 using Tyuiu.CherkashinMM.Sprint2.Task2.V12.Lib; 
  
-namespace Tyuiu.BarbashinAV.Sprint2.Task2.V12; 
+namespace Tyuiu.CherkashinMM.Sprint2.Task2.V12; 
  
 class Program 
 { 

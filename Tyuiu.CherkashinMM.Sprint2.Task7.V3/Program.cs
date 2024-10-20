@@ -1,7 +1,7 @@
 using System;
 using Tyuiu.CherkashinMM.Sprint2.Task7.V3.Lib; 
  
-namespace Tyuiu.BarbashinAV.Sprint2.Task7.V3; 
+namespace Tyuiu.CherkashinMM.Sprint2.Task7.V3; 
  
 class Program 
 { 
